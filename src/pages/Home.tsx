@@ -11,6 +11,7 @@ import Trackshipment from '@/components/sections/Trackshipment';
 import FreightOperations from '@/components/sections/FreightOperations';
 import FAQs from '@/components/sections/FAQs';
 import BeforeFooter from '@/components/sections/BeforeFooter';
+import NewSection from '@/components/sections/NewSection';
 
 
 
@@ -28,6 +29,7 @@ const Home = () => {
       <FAQs />
       <BeforeFooter />
       <Footer />
+      <NewSection />
     </>
   )
 }
