@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewSection = () => {
   return (
-    <div>NewSection</div>
+    <div>Hello New Section</div>
   )
 }
 
