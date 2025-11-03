@@ -8,7 +8,7 @@ const FreightOperations = () => {
     return (
         <div className="bg-[#F5F8FF] py-10 sm:py-14 md:py-20 px-4 sm:px-6 md:px-10">
             <div className="container mx-auto max-w-[1280px]">
-                <div className="flex flex-col items-center text-center gap-4">
+                <div className="flex flex-col items-center text-center gap-4 ">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-normal">
                         All Your <span className="ha_gradient_text">Freight Operations</span> in One Platform
                     </h2>
