@@ -2,7 +2,13 @@ import React from 'react'
 
 const NewSection = () => {
   return (
+    <>
     <div>Hello New Section1</div>
+    <div>Hello New Section1</div>
+    <div>Hello New Section1</div>
+    <div>Hello New Section1</div>
+    </>
+    
   )
 }
 
