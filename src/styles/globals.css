@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+
+body {
+      font-family: "Poppins", sans-serif;
+            /* font-family: "Lato", sans-serif;     */
+}
+
+button{
+    cursor: pointer;
+}
+
+.ha_nav_gradient{
+        background: linear-gradient(90deg, #bacfff 0, #d0a6ff);
+}
+
+.ha_gradient_text {
+  background-image: linear-gradient(90deg, #4263aa 61.47%, #7c4eaf 88.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.ha_hero_section{
+    background: url('/src/assets/images/grid.svg');
+    background-color: #F6F9FF;
+}
+
+.ha_solutions_tab .bg-active{
+  background:url('/src/assets/images/right-blue.svg') !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 14rem;
+}
+
+.ha_solutions_tab .bg-non-active{
+   background:url('/src/assets/images/left-grey-up.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 14rem;
+}
+
+.bg-bluegradient{
+  background: url('/src/assets/images/bg-blue-gradient.png');
+   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-purplegradient{
+  background: url('/src/assets/images/bg-purple-gradient.png');
+   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ha_accordian button {
+    text-align: left;
+}
+
+.bg-linear-blue{
+  background-image: linear-gradient(292deg, #2c3a62, #374f8f);
+}
+.footer_bottom{
+      background-image: linear-gradient(90deg, #bacfff 0, #d0a6ff);
+}
