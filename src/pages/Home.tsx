@@ -29,7 +29,6 @@ const Home = () => {
       <FAQs />
       <BeforeFooter />
       <Footer />
-      <NewSection />
     </>
   )
 }
