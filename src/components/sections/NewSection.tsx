@@ -1,8 +1,9 @@
 import React from 'react'
+import {Snippet} from "@heroui/react";
 
 const NewSection = () => {
   return (
-    <div>Hello New Section1</div>
+   <Snippet>npm install @heroui/react</Snippet>
   )
 }
 
